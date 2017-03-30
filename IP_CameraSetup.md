@@ -13,7 +13,9 @@ Since the opencv python api doesn't have the ability to use GPU stuff, here's wh
 
 Setting up swig:
 sudo apt-get install swig
+
 Ignore this: http://www.swig.org/tutorial.html and this: http://www.swig.org/Doc3.0/SWIGDocumentation.html
+
 Use this: http://www.swig.org/Doc3.0/Python.html
 
 The important detail is to use distutils to compile your extension module.
