@@ -19,3 +19,6 @@ Ignore this: http://www.swig.org/tutorial.html and this: http://www.swig.org/Doc
 Use this: http://www.swig.org/Doc3.0/Python.html
 
 The important detail is to use distutils to compile your extension module.
+
+Opencv c++ gpu compilation command (from cudacasts video):
+g++ yourfile.cpp -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_video -lopencv_gpu -o yourcompiledscript
