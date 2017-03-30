@@ -17,3 +17,7 @@ https://devtalk.nvidia.com/default/topic/810295/jetson-tk1/jetson-tk1-ftdi-works
 
 
 The article also misses a step- in 'configuring the kernel', before you run 'make menuconfig', you have to cd into the newly-spawned kernel directory that was created in preceding steps.
+
+Setting up Swig:
+
+Ignore Swig's main tutorial page. This one has instructions that work as a hello world: http://www.swig.org/Doc1.3/Python.html
