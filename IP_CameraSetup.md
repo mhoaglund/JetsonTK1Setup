@@ -22,3 +22,7 @@ The important detail is to use distutils to compile your extension module.
 
 Opencv c++ gpu compilation command (from cudacasts video):
 g++ yourfile.cpp -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_video -lopencv_gpu -o yourcompiledscript
+
+DHCP config:
+
+Using the tk1 as a dhcp server & gateway. Remember to configure your DHCP interface in NetworkManager, with gateway and address being same, and subnet mask matching what you entered in dhcpd.conf.
